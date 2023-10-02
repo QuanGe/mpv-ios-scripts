@@ -21,7 +21,7 @@ Tested with:
 ## Usage
 
 1. [Build OpenSSL](https://github.com/x2on/OpenSSL-for-iPhone/tree/dc64c470b5e1aeec5d66d861e6dc164478c9289b) for iOS and tvOS
-2. Copy built OpenSSL libraries to `./openssl`
+2. Copy built OpenSSL libraries (content of  fold `bin`)  to `./openssl`
 3. Run `./download.sh` to download and unarchive the projects' source
 4. Run `./compile.sh -p PLATFORM -e ENVIRONMENT`, where platform is one of `ios`, `tv` and environment is one of:
 
